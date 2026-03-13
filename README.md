@@ -31,13 +31,13 @@ pip install requests beautifulsoup4
 
 ```bash
 # Default IP (192.168.10.254)
-python celltower.py
+uv run elcelldump.py
 
 # Custom IP
-python celltower.py 192.168.1.100
+uv run elcelldump.py 192.168.1.100
 
 # Show raw AT responses
-python celltower.py --raw
+uv run elcelldump.py --raw
 ```
 
 ## Requirements
