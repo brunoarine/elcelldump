@@ -7,9 +7,9 @@ to the built-in AT command terminal, and displays cell tower info
 including eNodeB ID and Sector.
 
 Usage:
-    python3 celltower.py                 # uses default IP 192.168.10.254
-    python3 celltower.py 192.168.1.100   # custom IP
-    python3 celltower.py --raw           # also show raw AT responses
+    python3 elcelldump.py                 # uses default IP 192.168.10.254
+    python3 elcelldump.py 192.168.1.100   # custom IP
+    python3 elcelldump.py --raw           # also show raw AT responses
 """
 
 import argparse
